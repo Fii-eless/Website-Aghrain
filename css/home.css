@@ -1,64 +1,136 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    gap: 16px;
 }
 
-* {
-    /* outline: 2px solid; */
-}
 .container {
     display: flex;
-}.begin .base {
+    width: 100vw;
+}
+
+.begin {
+    display: flex;
+    flex-direction: column;
     flex: 0 0 auto;
+    background-color: #1f2937;
+    padding: 24px;
+    width: 100vw;
 }
 
 .topbar {
-    flex: 0 0 auto;
-    display: flex;
     width: 100vw;
-    height: fit-content;
-    background-color: #1f2937;
-    align-items: flex-start;
+    display: flex;
+    flex: 1;
 }
 
 .brand {
-    flex: 1;
+    flex: 0 0 auto;
     display: flex;
-    flex-direction: row;
     font-size: 24px;
     color: #f9faf8;
+    width: 50vw;
+}
+
+.brand div {
+    font-size: 24px;
+    
 }
 
 .headbutt {
     flex: 1;
     display: flex;
-    width: 100vw;
-    
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
-.headbutt > ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
+.topbutt {
     flex: 1;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    font-size: 18px;
+}
+
+.head {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.head h1 {
+    font-size: 48px;
+    font-weight: larger;
+    color: #f9faf8;
+    margin: 16px;
+}
+
+.head p {
     font-size: 18px;
     color: #e5e7eb;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
+    text-align: justify;
 }
-a {
-    text-decoration: none;
+
+.mainimg {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
-.begin .base > * {
+.base {
+    flex: 0 0 auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-} 
-.head > h1 {
-    font-size: 48px;
-    color: #f9faf8;
+    color: #e5e7eb;
+    height: 50px;
+    width: 100vw;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.bods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btop h1 {
+    color: #1f2937;
+    font-size: 36px;
     font-weight: bolder;
 }
-.head > p {
-    color: #e5e7eb;
-    font-size: 18px;
+
+.allpath {
+    display: flex;
+    gap: 36px;
+}
+
+.path {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.path p {
+    width: 300px;
+}
+.bmid {
+    background-color: #e5e7eb;
+    width: 100vw;
+    padding-top: 16px;
+}
+
+.bmid blockquote {
+    font-style: italic;
 }
