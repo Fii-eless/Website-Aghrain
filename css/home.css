@@ -4,6 +4,7 @@ body {
     height: 100vh;
     width: 100vw;
     gap: 16px;
+    padding: 0;
 }
 
 .container {
@@ -128,9 +129,33 @@ body {
 .bmid {
     background-color: #e5e7eb;
     width: 100vw;
-    padding-top: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.holdtest {
+    display: flex;
+    width: 40%;
+    align-self: center;
 }
 
 .bmid blockquote {
     font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 8px;
+}
+
+.testify {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    order: -1;
+}
+
+.testify p {
+    margin: 0;
+    padding: 0;
 }
