@@ -27,16 +27,26 @@ body {
     flex: 1;
 }
 
+.topbutt button {
+    background-color: #1f2937;
+    font-size: 16px;
+    color: #f9faf8;
+    border-radius: 12.5px;
+}
+
 .brand {
     flex: 0 0 auto;
     display: flex;
     font-size: 24px;
     color: #f9faf8;
     width: 50vw;
+    align-items: baseline;
+    gap: 24px;
 }
 
 .brand div {
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: bold;
     
 }
 
@@ -97,6 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    gap: 32px;
 }
 
 .bods {
@@ -122,6 +133,11 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
+.path img {
+    outline: 2px solid #3882f6;
+    border-radius: 25px;
+} 
 
 .path p {
     width: 300px;
@@ -158,4 +174,32 @@ body {
 .testify p {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.call {
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    gap: 24px;
+    padding: 16px;
+}
+
+.callwords {
+    width: 70%;
+}
+
+.call button {
+    padding: 0 32px;
+    border-radius: 12.5px;
+    outline: 2px solid #f9faf8;
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
 }
