@@ -66,17 +66,32 @@ body {
     font-size: 18px;
 }
 
+.headmain {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 16px;
+}
+
 .head {
-    flex: 1;
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4pxpx;
+}
+
+.head * {
+    margin: 4px;
+    padding: 4px;
 }
 
 .head h1 {
     font-size: 48px;
     font-weight: larger;
     color: #f9faf8;
-    margin: 16px;
 }
 
 .head p {
@@ -85,9 +100,16 @@ body {
     text-align: justify;
 }
 
+.head button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 9px;
+    font-size: medium;
+}
+
 .mainimg {
     display: flex;
-    flex: 1;
+    flex: 0 0 auto;
     justify-content: center;
     align-items: center;
 }
